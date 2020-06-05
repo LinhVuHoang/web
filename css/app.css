@@ -1,0 +1,53 @@
+body{
+    background-image: url("../img/hinh-nen-powerpoint-don-sac-20-hinh-nen-powerpoint-mau-xanh-da-troi-1492271852-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 200px;
+}
+h1{
+    font-size: 25px;
+    font-family: "Be VietNam" ;
+    font-weight: 800;/* 100 200 300 400(normal) 500 600 700(bold) 800 900*/
+    line-height: 1.5;
+    text-decoration:none;
+    /*under line line-through overline none*/
+    text-align:none;
+    /* left right jusstify center */
+    color:Black;/* rgb(253,17,34,0.5)*/
+    background-color: none;
+    border-top:None;
+    border-bottom:none;
+
+}
+ul{
+    padding: 30px;
+    margin:-25px ;
+}
+h2{
+    font-size: 25px;
+    font-family: "Be VietNam" ;
+    font-weight: 800;/* 100 200 300 400(normal) 500 600 700(bold) 800 900*/
+    line-height: 1.5;
+    text-decoration:none;
+}
+h3{font-size: 25px;
+    font-family: "Be VietNam" ;
+    font-weight: 800;/* 100 200 300 400(normal) 500 600 700(bold) 800 900*/
+    line-height: 1.5;
+    text-decoration:none;}
+h4{font-size: 25px;
+    font-family: "Be VietNam" ;
+    font-weight: 800;/* 100 200 300 400(normal) 500 600 700(bold) 800 900*/
+    line-height: 1.5;
+    text-decoration:none;}
+h5{font-size: 25px;
+    font-family: "Be VietNam" ;
+    font-weight: 800;/* 100 200 300 400(normal) 500 600 700(bold) 800 900*/
+    line-height: 1.5;
+    text-decoration:none;}
+h6{font-size: 25px;
+    font-family: "Be VietNam" ;
+    font-weight: 800;/* 100 200 300 400(normal) 500 600 700(bold) 800 900*/
+    line-height: 1.5;
+    text-decoration:none;}
