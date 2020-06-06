@@ -17,7 +17,7 @@ h1{
     color:Black;/* rgb(253,17,34,0.5)*/
     background-color: none;
     border-top:None;
-    border-bottom:none;
+    border-bottom:red;
 
 }
 ul{

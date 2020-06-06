@@ -1,0 +1,45 @@
+body{
+margin-left: 230px;
+    margin-right: 230px;
+}
+img{
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-position: left;
+    float: left;
+}
+h1 {
+    border-bottom-color: red;
+    border-style: dashed;
+    border-top:none;
+
+}
+p1{
+    color: red;
+    font-size: 25px;
+}
+p2{
+    color: red;
+    font-size: 25px;
+}
+p3{
+    color: red;
+    font-size: 25px;
+}
+p4{
+    color: red;
+    font-size: 25px;
+}
+p5{
+    color: red;
+    font-size: 25px;
+}
+p6{
+    color: red;
+    font-size: 25px;
+}
+p{
+    font-size: 15px;
+}
