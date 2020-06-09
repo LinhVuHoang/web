@@ -5,14 +5,14 @@ margin-left: 230px;
 img{
     width: 120px;
     margin-left: 50px;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 20px;
     background-position: left;
     float: left;
 }
 h1 {
     border-bottom-color: red;
-    border-style: dashed;
+    border-style: solid;
     border-top:none;
 
 }
