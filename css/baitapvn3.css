@@ -1,0 +1,114 @@
+.content{
+    height: 100%px;
+    width: 100%px;
+    margin: 0;
+    padding: 5px 10px 2px 20px;
+    position: relative;
+    background-color: lightgreen;
+}
+.leftbox{
+    width: 66%;
+    margin: none;
+    float: left;
+}
+.leftbox1{
+    padding: 7px;
+    height: 200px;
+    background-color: red;
+}
+.leftbox2{
+    padding: 7px;
+    background-color: lightgreen;
+    height: 220px;
+}
+.leftbox3{
+    padding: 7px;
+    background-color: lightblue;
+    height: 370px;
+}
+div > h1{
+    color: white;
+}
+.text1{
+    color: white;
+}
+.pic1{
+    width: 20px;
+    height: 20px;
+}
+.pic2{
+    width: 20px;
+    height: 20px;
+    align-content: center;
+
+}
+.pic3{
+    width: 20px;
+    height: 20px;
+}
+.readmore{
+    width: 90px;
+    height: 20px;
+    background-color: red;
+    padding: 10px;
+}
+.readmoretext{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-top: 4px;
+}
+.pic4{
+    width: 20px;
+    height: 20px;
+}
+h3{
+    font-size: 23px;
+}
+.rightbox{
+    width: 30%;
+    float: right;
+    margin: none;
+}
+.rightbox1{
+    padding: 10px;
+    height: 470px;
+    background-color: lightgray;
+}
+.pic5{
+    width: 30px;
+    height: 30px;
+}
+.pic6{
+    width: 50px;
+    height: 50px;
+}
+.post1{
+    margin: 20px;
+    position: relative;
+}
+.readmoretext1{
+    color: #333131;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 20px;
+}
+.rightbox2{
+    margin-top: 20px;
+    padding: 10px;
+    height: 470px;
+    background-color: lightgray;
+}
+.readmoretext2{
+    color: #333333;
+    text-decoration: none;
+}
+.lists li{
+    list-style: none;
+}
+.pic7{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;;
+}
