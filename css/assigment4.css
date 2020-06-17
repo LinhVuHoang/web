@@ -1,0 +1,144 @@
+*{
+    /* tat ca cac the deu bi anh huong*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    background-color: #f2f2f2;
+    font-width: 400;
+    line-height: 1.5;
+}
+.a{
+    text-decoration: none;
+}
+.img{
+    max-width: 100%;
+}
+.header,.main,.footer{
+    float: left;
+    width: 100%;
+}
+.container{
+    width:1200px;
+    margin: 0 auto;
+}
+.containet1{
+    width:1200px;
+    margin: 0 auto;
+}
+.pic1{
+    width: 20px;
+    height: 20px;
+}
+
+.header-left{
+    float: left;
+    width: 60%;
+}
+.menu li{
+    float: left;
+    padding: 20px;
+    list-style: none;
+    text-transform: capitalize;
+}
+.text1{
+    color: #333333;
+}
+.pic2{
+    width: 30px;
+    height: 30px;
+}
+. text2{
+    color: #5d5959;
+    line-height: 1.5;
+}
+.logo{
+    left: 47%;
+    padding: 20px;
+    position: absolute;
+}
+input[type="text"]{
+    padding: 5px 30px;
+    margin-top: 20px;
+}
+.header-right{
+    width: 40%;
+    float: right;
+}
+.login{
+    padding: 20px 20px;
+    font-size: 20px;
+}
+.colorl{
+    color: #666262;
+}
+.colors{
+    color: #a29a9a;
+}
+.search1{
+    float: left;
+    left: 40%;
+    margin-left: 50px;
+}
+.login1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.signup{
+    width: 70px;
+    background-color: lightgreen;
+    border-radius:  15px;
+    padding: 5px;
+}
+.box1{
+    font-size: 60px;
+    text-align: center;
+}
+.main{
+    background-color: #78ea78;
+}
+.box1{
+    border-bottom-style: dashed;
+    border-bottom: #333131;
+}
+.boxs{
+    width: 1200px;
+
+}
+.box li{
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    text-transform: capitalize;
+    padding: 20px 5px;
+    margin: 30px 0;
+    border-top-width: thin;
+    border-top-style: solid;
+    border-top-color: #70bf70;
+
+}
+.box2{
+    float: left;
+    margin-right: 100px;
+    margin-left: 55px;
+    align-content: center;
+}
+.box3{
+    align-content: center;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+.box4{
+    align-content: center;
+    margin-left:90px;
+}
+.clr{
+    clear: both;
+    font-size: 0;
+}

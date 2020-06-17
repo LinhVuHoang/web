@@ -8,10 +8,10 @@ body{
     font-size: 14px;
     color: #333333;
     background-color: #cc0000;
-    background: -moz-linear-gradient(bottom, #8f00cc 30%, #003331 70%);
-    background: -o-linear-gradient(bottom, #8f00cc 30%, #002d33 70%);
-    background: -ms-linear-gradient(bottom, #a000cc 30%, #003133 70%);
-    background: -webkit-gradient(linear,left bottom,left top,color-stop(0.3, #9600cc),color-stop(0.7, #001433));
+    background: -moz-linear-gradient(bottom, #8f00cc 40%, #10e5bb 60%);
+    background: -o-linear-gradient(bottom, #8f00cc 40%, #15c2dd 60%);
+    background: -ms-linear-gradient(bottom, #a000cc 40%, #1ed3db 60%);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0.4, #9600cc),color-stop(0.6, #1867e2));
     font-width: 400;
     line-height: 1.5;
 }
