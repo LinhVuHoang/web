@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animation</title>
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+<body>
+    <div class="transform">
+        Transform
+    </div>
+<div class="transition">
+
+</div>
+<div class="animation">
+    animation
+</div>
+<script type="text/javascript">
+    //alert("Cam tre em duoi 18 tuoi");
+  // if (confirm("Ban chac chan gui bai thi")){
+    //    console.log("nộp xong , chờ kết quả ...");
+    //}else{
+      //  console.log("tiếp tục thi ...");
+   // }
+   //var x = prompt("Chọn con số may mắn: ");
+    //var num = parseInt(Math.random()*100);
+   //if (x==num){
+     //   alert("chúc mừng đã trúng giải!");
+    //}else {
+      //  alert("chúc bạn may mắn lần sau!");
+    //}
+    //console.log(x);
+   var a = [100];
+   var s =0;
+   for (var i=0;i<5;i++) {
+       a[i] = prompt("chọn con số may mắn :");
+    for( var j=0;j<i;j++){
+    while (a[j] == a[i]){
+        a[i]= prompt("mời nhập lại số:");
+        j=0;
+    }
+    }}
+   for(var i=0;i<5;i++){
+       console.log(a[i]);
+   }
+   var b = [100];
+   for(var i=0;i<5;i++){
+       b[i] = parseInt(Math.random()*9);
+       for( var j=0;j<i;j++){
+           while (b[j] == b[i]){
+               b[i]=parseInt(Math.random()*9) ;
+               j=0;
+           }
+       }
+   }
+   for (var i=0;i<5;i++){
+       console.log(b[i]);
+   }
+   var k=0;
+for( var i=0;i<5;i++){
+    if(a[i]==b[i]){
+        k++;
+    }
+}
+if (k==5){
+    alert("chúc mừng đã trúng giải!");
+}else{
+    alert("Chúc bạn may mắn lần sau!");
+}
+
+
+
+
+
+</script>
+<script type="text/javascript" src="jss/js.js"></script>
+</body>
+</html>

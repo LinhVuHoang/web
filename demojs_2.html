@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demojs2</title>
+</head>
+<body>
+<script type="text/javascript">
+    let obj ={
+      name : "Nguyen Van An",
+      age : 18,
+        address : "8 Ton That Thuyet",
+        run : function () {
+          console.log(this.name+ "is Running...");
+
+        },
+        girlfriend:[
+          "ngoc trinh","phuong trinh"
+       ],
+      //  gotohotel: function(){
+          //for (let i=0;i<this.girlfriend.length;i++){
+            //  console.log("di hotel voi "+this.girlfriend[i]);
+          //}// theo chỉ mục
+          //this girlfriend.map(function (e) {
+            //  console.log("di hotel voi" + e);
+          //};
+         // },
+        children:{
+          name: "Nguyen Van Binh",
+            birthday:"22-5-1999",
+            playgame: function(){
+              console.log("playing game..");
+              return this;
+            },
+            children: {
+              name:"Nguyen Van Nam",
+                eat : function () {
+                  console.log("uong sua ");
+                    return this;
+                },
+                sleep : function () {
+                  console.log("di ngu");
+                    return this;
+                }
+            }
+        }
+      //trên là các thuộc tính nằm trong ngoặc nhọn , không được dùng ; bên trong hàm này
+    };
+    console.log(obj.name);
+    console.log(obj.address);
+    obj.run();
+    console.log("ten cua con la "+obj.children.name);
+    console.log("ten cua chau la "+obj.children.children.name);
+    obj.children.children.eat();
+    obj.children.children.sleep();
+    obj.children.children.eat().sleep();
+    obj.name = "Nguyen Van Anh"
+    console.log(obj.name);
+</script>
+</body>
+</html>
