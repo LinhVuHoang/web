@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ags7</title>
+</head>
+<body>
+<h1 id="heading">Tên quốc gia: </h1>
+<h2 id="heading1">Tên thành phố:</h2>
+<h3 id="thoitiet">Thời tiết trong tuần:</h3>
+<script type="text/javascript">
+let bangnhietdo={
+    country: "Việt nam",
+    city :"Quảng Ninh",
+    dsndtuan:[
+        {   day : "Thứ 2 ",
+            nhiet : "Nhiệt dộ : 34°C",
+            as : " Áp suất : 1000hPa",
+            mint: "Nhiệt độ thấp nhất : 27°C",
+            maxt: "Nhiệt độ cao nhất : 32°C ",
+            sea: "Mực nước biển : 5m"
+        },
+        {   day: "Thứ 3",
+            nhiet : "Nhiệt dộ : 27°C",
+            as : " Áp suất : 1003hPa",
+            mint: "Nhiệt độ thấp nhất : 27°C",
+            maxt: "Nhiệt độ cao nhất : 32°C ",
+            sea: "Mực nước biển : 4.6m"
+        },
+        {
+            day: "Thứ 4",
+            nhiet : "Nhiệt dộ : 27°C",
+            as : " Áp suất : 1001hPa",
+            mint: "Nhiệt độ thấp nhất : 27°C",
+            maxt: "Nhiệt độ cao nhất : 32°C ",
+            sea: "Mực nước biển : 4.8m"
+        },
+        {
+            day: "Thứ 5",
+            nhiet : "Nhiệt dộ : 27°C",
+            as : " Áp suất : 1000hPa",
+            mint: "Nhiệt độ thấp nhất : 27°C",
+            maxt: "Nhiệt độ cao nhất : 32°C ",
+            sea: "Mực nước biển : 5.3m"
+        },
+        {
+            day: "Thứ 6",
+            nhiet : "Nhiệt dộ : 25°C",
+            as : " Áp suất : 1001hPa",
+            mint: "Nhiệt độ thấp nhất : 25°C",
+            maxt: "Nhiệt độ cao nhất : 32°C ",
+            sea: "Mực nước biển : 5.1m"
+        },
+        {
+            day: "Thứ 7",
+            nhiet : "Nhiệt dộ : 27°C",
+            as : " Áp suất : 1002hPa",
+            mint: "Nhiệt độ thấp nhất : 27°C",
+            maxt: "Nhiệt độ cao nhất : 30°C ",
+            sea: "Mực nước biển : 4.5m"
+        },
+        {
+            day: "Cnhật",
+            nhiet : "Nhiệt dộ : 27°C",
+            as : " Áp suất : 1002hPa",
+            mint: "Nhiệt độ thấp nhất : 27°C",
+            maxt: "Nhiệt độ cao nhất : 31°C ",
+            sea: "Mực nước biển : 4.8m"
+        }
+    ]
+}
+let h1=document.getElementById("heading");
+h1.style.color = "green";
+h1.innerText = h1.innerText + bangnhietdo.country;
+let h2=document.getElementById("heading1");
+h2.style.color = "red";
+h1.style.backgroundColor ="yellow";
+h1.style.borderBottom = "1px solid green";
+h2.innerText = h2.innerText +bangnhietdo.city;
+let ul=document.getElementById("thoitiet");
+//bangnhietdo.dsndtuan.map(function (e) {
+  //  let  li = "<li><b>"+e.day+"</b></li>";
+//    ul.innerHTML = ul.innerHTML +li;
+//})
+for (let i=0;i<bangnhietdo.dsndtuan.length;i++){
+    let li ="<li><b>"+bangnhietdo.dsndtuan[i].day+"</b> &emsp;  <i>"+bangnhietdo.dsndtuan[i].nhiet+"</i>" +
+        "<i>&emsp;"+bangnhietdo.dsndtuan[i].as+"</i>" +"<i>&emsp;"+bangnhietdo.dsndtuan[i].maxt+"</i>"+
+    "<i>&emsp;"+bangnhietdo.dsndtuan[i].mint+"</i>"+"<i>&emsp;"+bangnhietdo.dsndtuan[i].sea+"</i>"
+        "</li>";
+    ul.innerHTML = ul.innerHTML +li;
+}
+</script>
+</body>
+</html>
