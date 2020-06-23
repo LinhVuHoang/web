@@ -9,10 +9,10 @@
 <div class="la1">
     <h1>Xác định vị trí trong Tabs</h1>
     <ul id="menu">
-        <li id="box1"><button onclick="click1()">Home</button></li>
-        <li id="box2"><button  onclick="click2()">Profile</button></li>
-        <li id="box3" ><button onclick="click3()">Messages</button></li>
-        <li id="box4" ><button onclick="click4()">Settings</button></li>
+        <li><button id="box1" onclick="click1()">Home</button></li>
+        <li><button id="box2" onclick="click2()">Profile</button></li>
+        <li ><button id="box3" onclick="click3()">Messages</button></li>
+        <li ><button id="box4" onclick="click4()">Settings</button></li>
     </ul>
 </div>
 <br>
@@ -34,12 +34,20 @@
 <script type="text/javascript">
     function click1() {
         document.getElementById("text1").style.opacity =1;
+        document.getElementById("box1").style.border = "solid thin #a29c9c";
+        document.getElementById("box2").style.border = 0;
+        document.getElementById("box3").style.border = 0;
+        document.getElementById("box4").style.border = 0;
         document.getElementById("text2").style.opacity =0;
         document.getElementById("text3").style.opacity =0;
         document.getElementById("text4").style.opacity =0;
     }
     function click2() {
         document.getElementById("text2").style.opacity =1;
+        document.getElementById("box2").style.border = "solid thin #a29c9c";
+        document.getElementById("box1").style.border = 0;
+        document.getElementById("box3").style.border = 0;
+        document.getElementById("box4").style.border = 0;
         document.getElementById("text1").style.opacity =0;
         document.getElementById("text3").style.opacity =0;
         document.getElementById("text4").style.opacity =0;
@@ -47,12 +55,20 @@
     }
     function click3() {
         document.getElementById("text3").style.opacity =1;
+        document.getElementById("box3").style.border = "solid thin #a29c9c";
+        document.getElementById("box1").style.border = 0;
+        document.getElementById("box2").style.border = 0;
+        document.getElementById("box4").style.border = 0;
         document.getElementById("text1").style.opacity =0;
         document.getElementById("text2").style.opacity =0;
         document.getElementById("text4").style.opacity =0;
     }
     function click4() {
         document.getElementById("text4").style.opacity =1;
+        document.getElementById("box4").style.border = "solid thin #a29c9c";
+        document.getElementById("box2").style.border = 0;
+        document.getElementById("box3").style.border = 0;
+        document.getElementById("box1").style.border = 0;
         document.getElementById("text2").style.opacity =0;
         document.getElementById("text3").style.opacity =0;
         document.getElementById("text1").style.opacity =0;

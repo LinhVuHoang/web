@@ -1,20 +1,28 @@
-#menu li{
+#menu li {
     float: left;
     padding: 0px 0px;
     list-style: none;
+    border-bottom: solid thin #a29c9c;
 }
 #box1{
+    outline: none;
     text-align: center;
+    border: 0;
 }
 #box2{
+    outline: none;
     text-align: center;
+    border: 0;
 }
 #box3{
+    outline: none;
     text-align: center;
+    border: 0;
 }
 #box4{
+    outline: none;
     text-align: center;
-
+    border: 0;
 }
 #text1{
     opacity: 0;
@@ -30,7 +38,7 @@
     position: absolute;
 }
 #text4{
-    opacity: 0;
+    opacity: 0  ;
     position: absolute;
 }
 .menu1{
