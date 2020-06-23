@@ -1,0 +1,38 @@
+#menu li{
+    float: left;
+    padding: 0px 0px;
+    list-style: none;
+}
+#box1{
+    text-align: center;
+}
+#box2{
+    text-align: center;
+}
+#box3{
+    text-align: center;
+}
+#box4{
+    text-align: center;
+
+}
+#text1{
+    opacity: 0;
+    position: absolute;
+}
+#text2{
+    opacity: 0;
+    position: absolute;
+}
+
+#text3{
+    opacity: 0;
+    position: absolute;
+}
+#text4{
+    opacity: 0;
+    position: absolute;
+}
+.menu1{
+    margin-left: 5%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Popup</title>
+    <link rel="stylesheet" href="css/popupcss.css">
+</head>
+<body>
+    <button class="btn" onclick="popup()">Open Popup</button>
+<div id="popup">
+    <img src="img/den-ban-cao-cap-db006.1.jpg">
+</div>
+<div id="bg-fade" onclick="closePopup()"></div>
+<script type="text/javascript">
+    function popup() {
+        document.getElementById("popup").style.opacity=1;
+        document.getElementById("bg-fade").style.opacity = 1;
+        document.getElementById("popup").style.zIndex=10;
+        document.getElementById("bg-fade").style.zIndex = 9;
+
+    }
+    function closePopup() {
+        document.getElementById("popup").style.zIndex = -1;
+        document.getElementById("bg-fade").style.zIndex = -2;
+        document.getElementById("popup").style.opacity = 0;
+        document.getElementById("bg-fade").style.opacity = 0;
+    }
+</script>
+</body>
+</html>
