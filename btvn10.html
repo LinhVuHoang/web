@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>btvn10</title>
+    <link rel="stylesheet" href="css/btvn10.css">
+</head>
+<body>
+<div class="box">
+    <div class="box1">
+        <button class="button-left" onclick="tab(-1)">&#10094</button>
+    </div>
+    <div class="content">
+    <div class="content_all" id="conten_all">
+    <div id="text1" class="tab_content"><img class="anh" src="img/4490badf4f4c650f8b0a5e449415ee70.jpg"></div>
+    <div  id="text2"   class="tab_content"><img class="anh" src="img/video-media-smartphone-phone-mobile-device-512.png"></div>
+    <div   id="text3"  class="tab_content"><img class="anh" src="img/pngtree-news-newspaper-icon-simple-style-png-image_5151907.jpg"></div>
+    <div id="text4" class="tab_content"><img class="anh" src="img/tải%20xuống%20(2).png"></div>
+</div></div>
+    <div class="box3">
+        <button class="button-right" onclick="tab(1)">&#10095</button>
+    </div>
+</div>
+<script type="text/javascript">
+   let slideNo =1;
+   let n;
+   imgshow(slideNo);
+   function tab(n) {
+        imgshow(slideNo += n);
+   }
+   function imgshow(n) {
+       let x = document.getElementsByClassName("tab_content");
+    if (n>x.length){
+        slideNo =1;
+    };
+    if (n<1){
+        slideNo = x.length;
+    };
+    for(let i=0;i<x.length ; i++){
+        x[i].style.display = "none";
+    }
+    x[slideNo-1].style.display = "block";
+   }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.box{
+    float: left;
+    width: 130px;
+    height: 82px;
+    border: yellow 10px solid;
+}
+.content_all{
+    float: left;
+    transition: all 300ms;
+}
+.anh{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.tab_content{
+    float: left;
+}
+.content{
+    float: left;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    margin-left: 3px;
+}
+.box1{
+    float: left;
+    width: 20px;
+    margin-left: 0px;
+}
+.box3{
+    width: 20px;
+    float: left;
+    margin-left: 0px;
+}
+#home{
+    display: block;
+}
+.button-left{
+    margin-top: 30px;
+}
+.button-right{
+    margin-top: 30px;
+}

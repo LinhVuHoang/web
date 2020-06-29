@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>countdown</title>
+</head>
+<body>
+<div class="container">
+<h1>Countdown Timeeeeeeee</h1>
+<div class="clock">
+    <span id="time">10:00</span>
+</div></div>
+<script type="text/javascript">
+    function startime() {
+        let timer=600 ,min,sec;
+        setInterval(function () {
+            min = parseInt(timer / 60 , 10);
+            sec = parseInt(timer % 60 , 10);
+            if (min < 10) {
+                min = "0" + min;
+            } else {
+                min = min;
+            }
+            if (sec < 10) {
+                sec = "0" + sec;
+            } else {
+                sec = sec
+            }
+            display.innerHTML = min +":" +sec;
+            if (timer < 0) {
+                alert("đếm ngược hoàn thành");
+            }
+
+            if(timer <0){
+                clearInterval(startime(timer))
+            }
+            timer--;
+        },10)
+    }let display= document.getElementById("time");
+    startime(display);
+
+</script>
+</body>
+</html>
