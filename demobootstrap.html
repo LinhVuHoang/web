@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo boostrap</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<header class="section">
+    <div class="container">
+        <a href="#" class="login" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#login">Login</a>
+        <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLable">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        login...
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a id="dLabel" data-target="#" href="http://example.com/" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Dropdown trigger
+                <span class="caret"></span>
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="dLabel">
+                ...
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown trigger
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dLabel">
+               ...
+            </ul>
+        </div>
+    </div>
+</header>
+<section class="main section">
+    <div class="container">
+        <div class="row">
+            <aside class="col-md-3">
+                Đây là aside
+            </aside>
+            <div class="content col-md-6">
+                <table class="table table-bordered table-striped table-hover">
+                <thead>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Telephone</th>
+                    </thead>
+                    <tbody>
+                    <tr >
+                    <td>#1</td>
+                    <td>Donal Trump</td>
+                    <td>dt@gmail.com</td>
+                    <td>990098</td>
+                    </tr>
+                    <tr class="danger">
+                        <td>#1</td>
+                        <td>Donal Trump</td>
+                        <td>dt@gmail.com</td>
+                        <td>990098</td>
+                    </tr>
+                    <tr class="success">
+                        <td>#1</td>
+                        <td>Donal Trump</td>
+                        <td>dt@gmail.com</td>
+                        <td>990098</td>
+                    </tr>
+                    <tr class="warning">
+                        <td>#1</td>
+                        <td>Donal Trump</td>
+                        <td>dt@gmail.com</td>
+                        <td>990098</td>
+                    </tr>
+                </tbody>
+                </table>
+                <form method="get" action="#">
+                    <div class="row">
+                        <div class="col-md-6">
+                        <label><i class="glyphicon glyphicon-user"></i> Fullname</label>
+                        <input class="form-control" type="text" name="name" placeholder="Fullname">
+                    </div>
+                        <div class="col-md-6">
+                            <label>Lastname</label>
+                            <input class="form-control" type="text" name="name" placeholder="Lastname">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input class="form-control" type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input class="form-control" type="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="form-group text-right">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <aside class="col-md-3">
+                Đây là aside
+            </aside>
+        </div>
+    </div>
+</section>
+<footer class="section">
+    <div class="container">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="jss/jquery.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

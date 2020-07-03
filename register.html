@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+</head>
+<body>
+<section>
+    <div class="container">
+        <form action="#" method="get" data-target="validator" role="form">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>First name</label>
+                        <input name="fn" type="text" class="form-control" data-error="Nhập sai rồi , nhập lại đi" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <label>first name</label>
+                        <input name="fn" type="text" class="form-control" data-error="điền cho đúng tên" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input name="email" type="text" class="form-control" data-error="Email cơ mà" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-danger">Register</button>
+            </div>
+        </form>
+    </div>
+</section>
+<script type="text/javascript" src="jss/jquery.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/vali.js"></script>
+</body>
+</html>
