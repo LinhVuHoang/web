@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boder{
+    width: 100%;
+    height: 750px;
+    padding: 30px;
+}
+.hop1{
+    width: 100%;
+    height: 300px;
+}
+.row{
+    width: 100%;
+}
+.hop2{
+    margin-top: 20px;
+    width: 100%;
+    height: 280px;
+}
+.hop3{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: brown;
+    margin-right: 15px;
+}
+.sale{
+    float: right;
+    padding-left: 25px;
+}
+.banner{
+    padding-right: 25px;
+}
+.carousel_slide{
+    width: 100%;
+    height: 300px;
+}
+.item{
+    width: 100%;
+    height: 300px;
+}
+.item_active{
+    width: 100%;
+    height: 300px;
+}
+.new1{
+    padding-right: 25px;
+    height: 280px;
+}
+.new2{
+    padding-right: 25px;
+    padding-left: 25px;
+    height: 280px;
+}
+.anh{
+    height: 280px;
+}
+.free{
+    text-align: center;
+    background-color: brown;
+    height: 280px;
+    margin-left: 28px;
+    width: 30%;
+    margin-right: 13px;
+}
+.free1{
+    margin-top: 100px;
+    color: whitesmoke;
+}
+.free2{
+    color: whitesmoke;
+}
+.text{
+    font-size: 15px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 15px;
+}
+.text2{
+    font-size: 30px;
+    text-align: center;
+    color: darkviolet;
+    top: 100px;
+    left: calc(50% - 50px);
+    position: absolute;
+
+}
+.text3{
+    text-align: center;
+    color: whitesmoke;
+    top: 150px;
+    font-size: 20px;
+    left: calc(50% - 170px);
+    position: absolute;
+}
+.text4{
+    text-align: center;
+    color: whitesmoke;
+    top: 150px;
+    font-size: 20px;
+    left: calc(50% - 185px);
+    position: absolute;
+}
+.anh1{
+    float: right;
+    text-align: center;
+    background-color: brown;
+    margin-left: 25px;
+    height: 300px;
+}
+.text5{
+    text-align: center;
+    color: whitesmoke;
+    top: 0px;
+    left: 110px;
+    font-size: 40px;
+    position: absolute;
+}
+.text6{
+    width: 88%;
+    height: 80px;
+    text-align: center;
+    top: 50px;
+    font-size: 18px;
+    position: absolute;
+    background-color: orange;
+    padding-top: 15px;
+    color: whitesmoke;
+}
