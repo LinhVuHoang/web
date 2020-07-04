@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+</head>
+<body>
+    <h1 id="temp"></h1>
+    <h3 id="drescription"></h3>
+    <script src="jss/jquery.js"></script>
+    <script type="text/javascript"></script>
+    <script type="text/javascript">
+        $.ajax({
+            url: "data2_json",
+            method:"GET",
+            type:"application/json",
+            success:function (rs) {
+
+            }
+        })
+    </script>
+</body>
+</html>
