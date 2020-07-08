@@ -1,0 +1,47 @@
+body{
+    background-image: url("../img/free-weather-background-hd-wallpapers-windows-apple-amazing-4k-samsung-wallpapers-free-download-1920x1080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.item{
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+    border: 1px solid #1b6d85;
+    border-radius:5px;
+    padding:20px;
+    background-color: #ffffff60;
+    position: relative;
+}
+.item p {
+    font-size: 20px;
+    color: #699;
+}
+.item .temp{
+    font-size: 35px;
+}
+.item img{
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+#map{
+    width: 100% ;
+    float: left;
+    height: 500px ;
+
+}
