@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+.header{
+    background-color: white;
+}
+.hop1{
+    padding: 20px;
+}
+.logo{
+    text-align: center;
+}
+.hop2{
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+.an{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.an1{
+    color: deepskyblue;
+    text-decoration: none;
+}
+.menu li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    float: right;
+}
+.hop4{
+    float: right;
+    margin-top: 30px;
+}
+.anh{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.input-text1{
+    margin-left: 30px;
+    height: 50px;
+    float: right;
+}
+.input-text{
+    height: 50px;
+}
+.input-text2{
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+}
+.input-text3{
+    float: left;
+    margin-top: 30px;
+    height: 150px;
+    width: 100%;
+}
+.summit{
+    margin-top: 30px;
+    text-align: center;
+    height: 70px;
+    background-color: #4a4a99;
+    color: white;
+}
+
