@@ -48,7 +48,7 @@
         </div>
     </div>
     <div class="hop4 col-md-7">
-        <form  class="form" method="get" action="#">
+        <form name="myForm" method="get" action="#" onsubmit="return validateForm()">
             <div class="o2">
                 <input type="text" name="Your Name" class="input-text col-md-7" placeholder="Your Name" required>
             </div>
@@ -56,11 +56,11 @@
                 <input type="text" name="Your Email" class="input-text1 col-md-4" placeholder="Your Email" required>
             </div>
         </form>
-        <form class="form" method="get" action="#">
+        <form name="myForm" method="get" action="#" onsubmit="return validateForm()">
         <div class="o3">
             <input type="text" name="Your Title" class="input-text2 col-md-11" placeholder="Your Title" required></div>
        </form>
-        <form class="form" method="get" action="#">
+        <form name="myForm" method="get" action="#" onsubmit="return validateForm()">
             <div class="o3">
                 <input type="text" name="Your Comment" class="input-text3" placeholder="Your Comment" required>
             </div></form>
@@ -72,6 +72,35 @@
     </div>
     </div>
 </div>
-</body>
+<script type="text/javascript" src="jss/jquery.js"></script>
+<script type="text/javascript"></script>
 
-</html>
+    <script type=text/javascript>
+        function validateForm() {
+            var x = document.forms["myForm"]["Your Name"].value;
+            if (x == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+            var x = document.forms["myForm"]["Your Email"].value;
+            if (x == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+            var x = document.forms["myForm"]["Your Title"].value;
+            if (x == "") {
+                alert("Title must be filled out");
+                return false;
+            }
+            var x = document.forms["myForm"]["comment"].value;
+            if (x == "") {
+                alert("Comments must be filled out");
+                return false;
+            }
+
+        }
+
+
+</script>
+</script>
+</body></html>
